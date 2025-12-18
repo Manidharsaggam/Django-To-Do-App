@@ -51,7 +51,7 @@ ToDoList/
 
 ## ⚙️ Setup Instructions
 
-## 1️⃣ Clone the repository
+1️⃣ Clone the repository
 git clone https://github.com/Manidharsaggam/django-todo-app.git
 cd django-todo-app
 
@@ -74,8 +74,8 @@ http://127.0.0.1:8000/
  
 ## 📸 Screenshots
 
-### Home Page
-![Home Page](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/home.png)
+### Home Task
+![Home Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/home.png)
 
 ### Edit Task
 ![Edit Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/edit.png)
