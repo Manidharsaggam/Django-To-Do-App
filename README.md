@@ -47,11 +47,7 @@ ToDoList/
 │   ├── edit.png
 │   └── completed.png
 └── README.md
-
-☝️ **THIS LINE CLOSES THE CODE BLOCK**
-
-```md
----
+```
 
 ## ⚙️ Setup Instructions
 1️⃣ Clone the repository
@@ -78,14 +74,15 @@ http://127.0.0.1:8000/
 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/home.png)
 
 ### Edit Task
-![Edit Task](screenshots/edit.png)
+![Edit Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/edit.png)
 
 ### Completed Task
-![Completed Task](screenshots/completed.png)
-🧠 What I Learned
+![Completed Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/completed.png)
+
+**##🧠 What I Learned**
 
 Implemented full CRUD operations using Django
 
@@ -99,7 +96,7 @@ Debugged real Django issues (404 errors, migrations, routing)
 
 Improved UI using pure HTML and CSS
 
-👨‍💻 Author
+**##👨‍💻 Author**
 
 Manidhar Saggam
 Python Developer (Fresher)
@@ -108,7 +105,7 @@ GitHub: https://github.com/Manidharsaggam
 
 LinkedIn: (add your LinkedIn profile link)
 
-📌 Future Improvements
+**##📌 Future Improvements**
 
 User authentication
 
@@ -119,13 +116,3 @@ Task priorities and deadlines
 Deployment on cloud platform (Render / Railway)
 
 ⭐ If you like this project, feel free to star the repository!
-
----
-
-### 🔜 Final Step
-After updating README, run:
-
-```bash
-git add README.md
-git commit -m "Updated README with setup, screenshots, and documentation"
-git push
