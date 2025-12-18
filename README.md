@@ -42,15 +42,23 @@ ToDoList/
 │
 ├── manage.py
 ├── db.sqlite3
+├── screenshots/
+│   ├── home.png
+│   ├── edit.png
+│   └── completed.png
 └── README.md
-'''
 
-⚙️ Setup Instructions
+☝️ **THIS LINE CLOSES THE CODE BLOCK**
+
+```md
+---
+
+## ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone https://github.com/Manidharsaggam/django-todo-app.git
 cd django-todo-app
 
-2️⃣ Create and activate virtual environment (optional)
+2️⃣ Create and activate virtual environment (optional but recommended)
 python -m venv venv
 venv\Scripts\activate   # Windows
 
@@ -68,12 +76,15 @@ python manage.py runserver
 http://127.0.0.1:8000/
 
 📸 Screenshots
-Home Page
 
-Edit Task
+### Home Page
+![Home Page](screenshots/home.png)
 
-Completed Task
+### Edit Task
+![Edit Task](screenshots/edit.png)
 
+### Completed Task
+![Completed Task](screenshots/completed.png)
 🧠 What I Learned
 
 Implemented full CRUD operations using Django
@@ -84,7 +95,7 @@ Managed checkbox state using BooleanField
 
 Implemented filtering using query parameters
 
-Debugged real Django issues (404, migrations, routing)
+Debugged real Django issues (404 errors, migrations, routing)
 
 Improved UI using pure HTML and CSS
 
@@ -101,7 +112,7 @@ LinkedIn: (add your LinkedIn profile link)
 
 User authentication
 
-AJAX-based updates
+AJAX-based updates (no page reload)
 
 Task priorities and deadlines
 
@@ -109,14 +120,6 @@ Deployment on cloud platform (Render / Railway)
 
 ⭐ If you like this project, feel free to star the repository!
 
-
 ---
 
-## ✅ AFTER FIXING README (VERY IMPORTANT)
 
-Run:
-
-```bash
-git add README.md
-git commit -m "Fixed README markdown formatting"
-git push
