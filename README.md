@@ -47,85 +47,93 @@ ToDoList/
 │   ├── edit.png
 │   └── completed.png
 └── README.md
-
-☝️ **THIS LINE CLOSES THE CODE BLOCK**
-
-```md
+```
 ---
 
 ## ⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone https://github.com/Manidharsaggam/django-todo-app.git
-cd django-todo-app
 
-2️⃣ Create and activate virtual environment (optional but recommended)
-python -m venv venv
-venv\Scripts\activate   # Windows
+## 1️⃣ Clone the repository
 
-3️⃣ Install Django
-pip install django
+− git clone https://github.com/Manidharsaggam/django-todo-app.git
 
-4️⃣ Run migrations
-python manage.py makemigrations
-python manage.py migrate
+− cd django-todo-app
 
-5️⃣ Start the server
-python manage.py runserver
+## 2️⃣ Create and activate virtual environment (optional but recommended)
 
-6️⃣ Open in browser
-http://127.0.0.1:8000/
+− python -m venv venv
 
-📸 Screenshots
+− venv\Scripts\activate   # Windows
 
-### Home Page
-![Home Page](screenshots/home.png)
+## 3️⃣ Install Django
+
+− pip install django
+
+## 4️⃣ Run migrations
+
+− python manage.py makemigrations
+
+− python manage.py migrate
+
+## 5️⃣ Start the server
+
+− python manage.py runserver
+
+## 6️⃣ Open in browser
+
+− http://127.0.0.1:8000/
+
+---
+ 
+## 📸 Screenshots
+
+### Home Task
+![Home Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/home.png)
 
 ### Edit Task
-![Edit Task](screenshots/edit.png)
+![Edit Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/edit.png)
 
 ### Completed Task
-![Completed Task](screenshots/completed.png)
-🧠 What I Learned
+![Completed Task](https://raw.githubusercontent.com/Manidharsaggam/django-To-Do-App/main/screenshots/completed.png)
 
-Implemented full CRUD operations using Django
+---
 
-Handled multiple POST actions in a single view
+## 🧠 What I Learned
 
-Managed checkbox state using BooleanField
+⇥ Implemented full CRUD operations using Django
 
-Implemented filtering using query parameters
+⇥ Handled multiple POST actions in a single view
 
-Debugged real Django issues (404 errors, migrations, routing)
+⇥ Managed checkbox state using BooleanField
 
-Improved UI using pure HTML and CSS
+⇥ Implemented filtering using query parameters
 
-👨‍💻 Author
+⇥ Debugged real Django issues (404 errors, migrations, routing)
+
+⇥ Improved UI using pure HTML and CSS
+
+---
+
+## 👨‍💻 Author
 
 Manidhar Saggam
 Python Developer (Fresher)
 
-GitHub: https://github.com/Manidharsaggam
+⇥ GitHub: https://github.com/Manidharsaggam
 
-LinkedIn: (add your LinkedIn profile link)
-
-📌 Future Improvements
-
-User authentication
-
-AJAX-based updates (no page reload)
-
-Task priorities and deadlines
-
-Deployment on cloud platform (Render / Railway)
-
-⭐ If you like this project, feel free to star the repository!
+⇥ LinkedIn: https://www.linkedin.com/in/manidhar-saggam/
 
 ---
 
-### 🔜 Final Step
-After updating README, run:
+## 📌 Future Improvements
 
-```bash
-git add README.md
-git commit -m "Updated README with setup, screenshots, and documentation"
-git push
+• User authentication
+
+• AJAX-based updates (no page reload)
+
+• Task priorities and deadlines
+
+• Deployment on cloud platform (Render / Railway)
+
+---
+
+## ⭐ If you like this project, feel free to star the repository!
